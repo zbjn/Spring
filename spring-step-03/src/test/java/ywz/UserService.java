@@ -5,10 +5,10 @@ package ywz;
  */
 public class UserService {
     public void queryUserInfo(){
-        System.out.println("查询用户信息");
+        System.out.println("查询用户信息" + name);
     }
 
-/*    private String name;
+    private String name;
 
     public UserService(String name) {
         this.name = name;
@@ -20,5 +20,5 @@ public class UserService {
 
     public void setName(String name) {
         this.name = name;
-    }*/
+    }
 }

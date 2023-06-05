@@ -17,7 +17,7 @@ public class ApiTest {
         BeanDefinition beanDefinition = new BeanDefinition(UserService.class);
         defaultListableBeanFactory.registerBeanDefinition("userService",beanDefinition);
         //获取bean对象
-        UserService userService = (UserService) defaultListableBeanFactory.getBean("userService");
+        UserService userService = (UserService) defaultListableBeanFactory.getBean("userService","ywz");
         userService.queryUserInfo();
     }
 }
